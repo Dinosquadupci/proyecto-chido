@@ -47,7 +47,7 @@ namespace proyecto_chido
             // 
             // btnsubir
             // 
-            this.btnsubir.Location = new System.Drawing.Point(96, 548);
+            this.btnsubir.Location = new System.Drawing.Point(49, 534);
             this.btnsubir.Name = "btnsubir";
             this.btnsubir.Size = new System.Drawing.Size(152, 50);
             this.btnsubir.TabIndex = 0;
@@ -91,14 +91,14 @@ namespace proyecto_chido
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(28, 266);
+            this.textBox3.Location = new System.Drawing.Point(28, 254);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(173, 20);
             this.textBox3.TabIndex = 5;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(28, 348);
+            this.textBox4.Location = new System.Drawing.Point(28, 344);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(173, 20);
             this.textBox4.TabIndex = 6;
@@ -142,9 +142,9 @@ namespace proyecto_chido
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(374, 363);
+            this.checkedListBox1.Location = new System.Drawing.Point(297, 298);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(156, 154);
+            this.checkedListBox1.Size = new System.Drawing.Size(256, 244);
             this.checkedListBox1.TabIndex = 11;
             // 
             // Form1
