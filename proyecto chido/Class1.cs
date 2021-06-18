@@ -8,6 +8,17 @@ namespace proyecto_chido
 {
     class Class1
     {
+        public string Nombrepaciente { get; set; }
+        public string Apellidopaciente { get; set; }
+
+        public int Edadpaciente { get; set; }
+
+        public string NSS { get; set; }
+
+        public string Sangretype { get; set; }
+
+        public string Sintomaspaciente { get; set; }
+
 
     }
 }

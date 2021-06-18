@@ -65,7 +65,7 @@ namespace proyecto_chido
             this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnemergency = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -411,14 +411,15 @@ namespace proyecto_chido
             this.label9.Text = "Padeces alguna enfermedad?";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
-            // button1
+            // btnemergency
             // 
-            this.button1.Location = new System.Drawing.Point(362, 354);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 39);
-            this.button1.TabIndex = 49;
-            this.button1.Text = "EMERGENCIA";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnemergency.Location = new System.Drawing.Point(362, 354);
+            this.btnemergency.Name = "btnemergency";
+            this.btnemergency.Size = new System.Drawing.Size(165, 39);
+            this.btnemergency.TabIndex = 49;
+            this.btnemergency.Text = "EMERGENCIA";
+            this.btnemergency.UseVisualStyleBackColor = true;
+            this.btnemergency.Click += new System.EventHandler(this.btnemergency_Click);
             // 
             // label10
             // 
@@ -435,7 +436,7 @@ namespace proyecto_chido
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 739);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnemergency);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.checkBox16);
             this.Controls.Add(this.checkBox15);
@@ -519,7 +520,7 @@ namespace proyecto_chido
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.CheckBox checkBox16;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnemergency;
         private System.Windows.Forms.Label label10;
     }
 }
