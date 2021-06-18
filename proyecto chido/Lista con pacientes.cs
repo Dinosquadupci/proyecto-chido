@@ -21,5 +21,20 @@ namespace proyecto_chido
         {
 
         }
+
+        private void BtnAct_Click(object sender, EventArgs e)
+        {
+            //Limpiamos el list
+            Inventario.Items.Clear();
+            foreach (Inventario nombre in ListaInventario)
+            {
+                ListViewItem item = new ListViewItem();
+                item = Inventario.Items.Add(nombre.NombreEquipo);
+                item.SubItems.Add(nombre.EquipoMed);
+                item.SubItems.Add(nombre.MarcaEquipo);
+                item.SubItems.Add(nombre.Numeroserie.ToString());
+                item.SubItems.Add(nombre.EstadoEquipo);
+            }
+        }
     }
 }

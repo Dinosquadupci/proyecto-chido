@@ -35,7 +35,7 @@ namespace proyecto_chido
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.ck12 = new System.Windows.Forms.CheckBox();
             this.Txtbot = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -47,21 +47,21 @@ namespace proyecto_chido
             this.label7 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.ck1 = new System.Windows.Forms.CheckBox();
+            this.ck2 = new System.Windows.Forms.CheckBox();
+            this.ck3 = new System.Windows.Forms.CheckBox();
+            this.ck4 = new System.Windows.Forms.CheckBox();
+            this.ck5 = new System.Windows.Forms.CheckBox();
+            this.ck6 = new System.Windows.Forms.CheckBox();
+            this.ck7 = new System.Windows.Forms.CheckBox();
+            this.ck8 = new System.Windows.Forms.CheckBox();
+            this.ck9 = new System.Windows.Forms.CheckBox();
+            this.ck10 = new System.Windows.Forms.CheckBox();
+            this.ck11 = new System.Windows.Forms.CheckBox();
+            this.chdiab = new System.Windows.Forms.CheckBox();
+            this.chhiper = new System.Windows.Forms.CheckBox();
+            this.chasm = new System.Windows.Forms.CheckBox();
+            this.chale = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnemergency = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -90,6 +90,7 @@ namespace proyecto_chido
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(47, 20);
             this.textBox3.TabIndex = 5;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label2
             // 
@@ -118,16 +119,16 @@ namespace proyecto_chido
             this.label5.Size = new System.Drawing.Size(0, 13);
             this.label5.TabIndex = 11;
             // 
-            // checkBox12
+            // ck12
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.BackColor = System.Drawing.Color.Firebrick;
-            this.checkBox12.Location = new System.Drawing.Point(489, 616);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(38, 17);
-            this.checkBox12.TabIndex = 43;
-            this.checkBox12.Text = "12";
-            this.checkBox12.UseVisualStyleBackColor = false;
+            this.ck12.AutoSize = true;
+            this.ck12.BackColor = System.Drawing.Color.Firebrick;
+            this.ck12.Location = new System.Drawing.Point(489, 616);
+            this.ck12.Name = "ck12";
+            this.ck12.Size = new System.Drawing.Size(38, 17);
+            this.ck12.TabIndex = 43;
+            this.ck12.Text = "12";
+            this.ck12.UseVisualStyleBackColor = false;
             // 
             // Txtbot
             // 
@@ -146,6 +147,7 @@ namespace proyecto_chido
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(131, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -153,6 +155,7 @@ namespace proyecto_chido
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(138, 20);
             this.textBox2.TabIndex = 4;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox4
             // 
@@ -160,6 +163,7 @@ namespace proyecto_chido
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(173, 20);
             this.textBox4.TabIndex = 6;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label1
             // 
@@ -185,6 +189,7 @@ namespace proyecto_chido
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(78, 20);
             this.textBox5.TabIndex = 12;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label6
             // 
@@ -210,6 +215,7 @@ namespace proyecto_chido
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(300, 20);
             this.textBox6.TabIndex = 29;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // label8
             // 
@@ -220,166 +226,166 @@ namespace proyecto_chido
             this.label8.TabIndex = 31;
             this.label8.Text = "De la siguiente escala que tan mal te sientes ";
             // 
-            // checkBox1
+            // ck1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.Green;
-            this.checkBox1.Location = new System.Drawing.Point(55, 617);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(32, 17);
-            this.checkBox1.TabIndex = 32;
-            this.checkBox1.Text = "1";
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.ck1.AutoSize = true;
+            this.ck1.BackColor = System.Drawing.Color.Green;
+            this.ck1.Location = new System.Drawing.Point(55, 617);
+            this.ck1.Name = "ck1";
+            this.ck1.Size = new System.Drawing.Size(32, 17);
+            this.ck1.TabIndex = 32;
+            this.ck1.Text = "1";
+            this.ck1.UseVisualStyleBackColor = false;
             // 
-            // checkBox2
+            // ck2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.checkBox2.Location = new System.Drawing.Point(93, 617);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(32, 17);
-            this.checkBox2.TabIndex = 33;
-            this.checkBox2.Text = "2";
-            this.checkBox2.UseVisualStyleBackColor = false;
+            this.ck2.AutoSize = true;
+            this.ck2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ck2.Location = new System.Drawing.Point(93, 617);
+            this.ck2.Name = "ck2";
+            this.ck2.Size = new System.Drawing.Size(32, 17);
+            this.ck2.TabIndex = 33;
+            this.ck2.Text = "2";
+            this.ck2.UseVisualStyleBackColor = false;
             // 
-            // checkBox3
+            // ck3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.Lime;
-            this.checkBox3.Location = new System.Drawing.Point(127, 617);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(32, 17);
-            this.checkBox3.TabIndex = 34;
-            this.checkBox3.Text = "3";
-            this.checkBox3.UseVisualStyleBackColor = false;
+            this.ck3.AutoSize = true;
+            this.ck3.BackColor = System.Drawing.Color.Lime;
+            this.ck3.Location = new System.Drawing.Point(127, 617);
+            this.ck3.Name = "ck3";
+            this.ck3.Size = new System.Drawing.Size(32, 17);
+            this.ck3.TabIndex = 34;
+            this.ck3.Text = "3";
+            this.ck3.UseVisualStyleBackColor = false;
             // 
-            // checkBox4
+            // ck4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.checkBox4.Location = new System.Drawing.Point(165, 616);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(32, 17);
-            this.checkBox4.TabIndex = 35;
-            this.checkBox4.Text = "4";
-            this.checkBox4.UseVisualStyleBackColor = false;
+            this.ck4.AutoSize = true;
+            this.ck4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ck4.Location = new System.Drawing.Point(165, 616);
+            this.ck4.Name = "ck4";
+            this.ck4.Size = new System.Drawing.Size(32, 17);
+            this.ck4.TabIndex = 35;
+            this.ck4.Text = "4";
+            this.ck4.UseVisualStyleBackColor = false;
             // 
-            // checkBox5
+            // ck5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.checkBox5.Location = new System.Drawing.Point(204, 616);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(32, 17);
-            this.checkBox5.TabIndex = 36;
-            this.checkBox5.Text = "5";
-            this.checkBox5.UseVisualStyleBackColor = false;
+            this.ck5.AutoSize = true;
+            this.ck5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ck5.Location = new System.Drawing.Point(204, 616);
+            this.ck5.Name = "ck5";
+            this.ck5.Size = new System.Drawing.Size(32, 17);
+            this.ck5.TabIndex = 36;
+            this.ck5.Text = "5";
+            this.ck5.UseVisualStyleBackColor = false;
             // 
-            // checkBox6
+            // ck6
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.BackColor = System.Drawing.Color.Yellow;
-            this.checkBox6.Location = new System.Drawing.Point(243, 616);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(32, 17);
-            this.checkBox6.TabIndex = 37;
-            this.checkBox6.Text = "6";
-            this.checkBox6.UseVisualStyleBackColor = false;
+            this.ck6.AutoSize = true;
+            this.ck6.BackColor = System.Drawing.Color.Yellow;
+            this.ck6.Location = new System.Drawing.Point(243, 616);
+            this.ck6.Name = "ck6";
+            this.ck6.Size = new System.Drawing.Size(32, 17);
+            this.ck6.TabIndex = 37;
+            this.ck6.Text = "6";
+            this.ck6.UseVisualStyleBackColor = false;
             // 
-            // checkBox7
+            // ck7
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.BackColor = System.Drawing.Color.Gold;
-            this.checkBox7.Location = new System.Drawing.Point(282, 617);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(32, 17);
-            this.checkBox7.TabIndex = 38;
-            this.checkBox7.Text = "7";
-            this.checkBox7.UseVisualStyleBackColor = false;
+            this.ck7.AutoSize = true;
+            this.ck7.BackColor = System.Drawing.Color.Gold;
+            this.ck7.Location = new System.Drawing.Point(282, 617);
+            this.ck7.Name = "ck7";
+            this.ck7.Size = new System.Drawing.Size(32, 17);
+            this.ck7.TabIndex = 38;
+            this.ck7.Text = "7";
+            this.ck7.UseVisualStyleBackColor = false;
             // 
-            // checkBox8
+            // ck8
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.BackColor = System.Drawing.Color.Orange;
-            this.checkBox8.Location = new System.Drawing.Point(321, 617);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(32, 17);
-            this.checkBox8.TabIndex = 39;
-            this.checkBox8.Text = "8";
-            this.checkBox8.UseVisualStyleBackColor = false;
+            this.ck8.AutoSize = true;
+            this.ck8.BackColor = System.Drawing.Color.Orange;
+            this.ck8.Location = new System.Drawing.Point(321, 617);
+            this.ck8.Name = "ck8";
+            this.ck8.Size = new System.Drawing.Size(32, 17);
+            this.ck8.TabIndex = 39;
+            this.ck8.Text = "8";
+            this.ck8.UseVisualStyleBackColor = false;
             // 
-            // checkBox9
+            // ck9
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.BackColor = System.Drawing.Color.DarkOrange;
-            this.checkBox9.Location = new System.Drawing.Point(360, 617);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(32, 17);
-            this.checkBox9.TabIndex = 40;
-            this.checkBox9.Text = "9";
-            this.checkBox9.UseVisualStyleBackColor = false;
+            this.ck9.AutoSize = true;
+            this.ck9.BackColor = System.Drawing.Color.DarkOrange;
+            this.ck9.Location = new System.Drawing.Point(360, 617);
+            this.ck9.Name = "ck9";
+            this.ck9.Size = new System.Drawing.Size(32, 17);
+            this.ck9.TabIndex = 40;
+            this.ck9.Text = "9";
+            this.ck9.UseVisualStyleBackColor = false;
             // 
-            // checkBox10
+            // ck10
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.checkBox10.Location = new System.Drawing.Point(399, 616);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(38, 17);
-            this.checkBox10.TabIndex = 41;
-            this.checkBox10.Text = "10";
-            this.checkBox10.UseVisualStyleBackColor = false;
+            this.ck10.AutoSize = true;
+            this.ck10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.ck10.Location = new System.Drawing.Point(399, 616);
+            this.ck10.Name = "ck10";
+            this.ck10.Size = new System.Drawing.Size(38, 17);
+            this.ck10.TabIndex = 41;
+            this.ck10.Text = "10";
+            this.ck10.UseVisualStyleBackColor = false;
             // 
-            // checkBox11
+            // ck11
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.BackColor = System.Drawing.Color.Brown;
-            this.checkBox11.Location = new System.Drawing.Point(444, 617);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(38, 17);
-            this.checkBox11.TabIndex = 42;
-            this.checkBox11.Text = "11";
-            this.checkBox11.UseVisualStyleBackColor = false;
+            this.ck11.AutoSize = true;
+            this.ck11.BackColor = System.Drawing.Color.Brown;
+            this.ck11.Location = new System.Drawing.Point(444, 617);
+            this.ck11.Name = "ck11";
+            this.ck11.Size = new System.Drawing.Size(38, 17);
+            this.ck11.TabIndex = 42;
+            this.ck11.Text = "11";
+            this.ck11.UseVisualStyleBackColor = false;
             // 
-            // checkBox13
+            // chdiab
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(28, 354);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(68, 17);
-            this.checkBox13.TabIndex = 44;
-            this.checkBox13.Text = "Diabetes";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.chdiab.AutoSize = true;
+            this.chdiab.Location = new System.Drawing.Point(28, 354);
+            this.chdiab.Name = "chdiab";
+            this.chdiab.Size = new System.Drawing.Size(68, 17);
+            this.chdiab.TabIndex = 44;
+            this.chdiab.Text = "Diabetes";
+            this.chdiab.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // chhiper
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(28, 377);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(85, 17);
-            this.checkBox14.TabIndex = 45;
-            this.checkBox14.Text = "Hipertensión";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.chhiper.AutoSize = true;
+            this.chhiper.Location = new System.Drawing.Point(28, 377);
+            this.chhiper.Name = "chhiper";
+            this.chhiper.Size = new System.Drawing.Size(85, 17);
+            this.chhiper.TabIndex = 45;
+            this.chhiper.Text = "Hipertensión";
+            this.chhiper.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // chasm
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(127, 354);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(55, 17);
-            this.checkBox15.TabIndex = 46;
-            this.checkBox15.Text = "Asma ";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.chasm.AutoSize = true;
+            this.chasm.Location = new System.Drawing.Point(127, 354);
+            this.chasm.Name = "chasm";
+            this.chasm.Size = new System.Drawing.Size(55, 17);
+            this.chasm.TabIndex = 46;
+            this.chasm.Text = "Asma ";
+            this.chasm.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // chale
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(127, 377);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(66, 17);
-            this.checkBox16.TabIndex = 47;
-            this.checkBox16.Text = "Alergias ";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.chale.AutoSize = true;
+            this.chale.Location = new System.Drawing.Point(127, 377);
+            this.chale.Name = "chale";
+            this.chale.Size = new System.Drawing.Size(66, 17);
+            this.chale.TabIndex = 47;
+            this.chale.Text = "Alergias ";
+            this.chale.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -449,22 +455,22 @@ namespace proyecto_chido
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnemergency);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.checkBox16);
-            this.Controls.Add(this.checkBox15);
-            this.Controls.Add(this.checkBox14);
-            this.Controls.Add(this.checkBox13);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chale);
+            this.Controls.Add(this.chasm);
+            this.Controls.Add(this.chhiper);
+            this.Controls.Add(this.chdiab);
+            this.Controls.Add(this.ck12);
+            this.Controls.Add(this.ck11);
+            this.Controls.Add(this.ck10);
+            this.Controls.Add(this.ck9);
+            this.Controls.Add(this.ck8);
+            this.Controls.Add(this.ck7);
+            this.Controls.Add(this.ck6);
+            this.Controls.Add(this.ck5);
+            this.Controls.Add(this.ck4);
+            this.Controls.Add(this.ck3);
+            this.Controls.Add(this.ck2);
+            this.Controls.Add(this.ck1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox6);
@@ -502,7 +508,7 @@ namespace proyecto_chido
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox ck12;
         private System.Windows.Forms.Label Txtbot;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
@@ -516,21 +522,21 @@ namespace proyecto_chido
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox ck1;
+        private System.Windows.Forms.CheckBox ck2;
+        private System.Windows.Forms.CheckBox ck3;
+        private System.Windows.Forms.CheckBox ck4;
+        private System.Windows.Forms.CheckBox ck5;
+        private System.Windows.Forms.CheckBox ck6;
+        private System.Windows.Forms.CheckBox ck7;
+        private System.Windows.Forms.CheckBox ck8;
+        private System.Windows.Forms.CheckBox ck9;
+        private System.Windows.Forms.CheckBox ck10;
+        private System.Windows.Forms.CheckBox ck11;
+        private System.Windows.Forms.CheckBox chdiab;
+        private System.Windows.Forms.CheckBox chhiper;
+        private System.Windows.Forms.CheckBox chasm;
+        private System.Windows.Forms.CheckBox chale;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnemergency;
         private System.Windows.Forms.Label label10;

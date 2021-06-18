@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace proyecto_chido
 {
-    class Class1
+    public class Patientlist
     {
+
         public string Nombrepaciente { get; set; }
         public string Apellidopaciente { get; set; }
 

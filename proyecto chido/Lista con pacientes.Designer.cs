@@ -32,8 +32,6 @@ namespace proyecto_chido
             System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Nombre", System.Windows.Forms.HorizontalAlignment.Left);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lista_con_pacientes));
             this.listpatient = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.BtnAct = new System.Windows.Forms.Button();
             this.Nombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Apellido = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Edad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -42,6 +40,8 @@ namespace proyecto_chido
             this.Sintomas = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Enfermedad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Escala = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnAct = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listpatient
@@ -67,25 +67,6 @@ namespace proyecto_chido
             this.listpatient.UseCompatibleStateImageBehavior = false;
             this.listpatient.View = System.Windows.Forms.View.Details;
             this.listpatient.SelectedIndexChanged += new System.EventHandler(this.listpatient_SelectedIndexChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Pacientes en la sala de Urgencias";
-            // 
-            // BtnAct
-            // 
-            this.BtnAct.Location = new System.Drawing.Point(685, 36);
-            this.BtnAct.Name = "BtnAct";
-            this.BtnAct.Size = new System.Drawing.Size(235, 41);
-            this.BtnAct.TabIndex = 2;
-            this.BtnAct.Text = "Actualizar Pacientes";
-            this.BtnAct.UseVisualStyleBackColor = true;
             // 
             // Nombre
             // 
@@ -113,7 +94,7 @@ namespace proyecto_chido
             // Sintomas
             // 
             this.Sintomas.Text = "Sintomas";
-            this.Sintomas.Width = 109;
+            this.Sintomas.Width = 324;
             // 
             // Enfermedad
             // 
@@ -123,7 +104,27 @@ namespace proyecto_chido
             // Escala
             // 
             this.Escala.Text = "Triaje";
-            this.Escala.Width = 53;
+            this.Escala.Width = 97;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(372, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Pacientes en la sala de Urgencias";
+            // 
+            // BtnAct
+            // 
+            this.BtnAct.Location = new System.Drawing.Point(685, 36);
+            this.BtnAct.Name = "BtnAct";
+            this.BtnAct.Size = new System.Drawing.Size(235, 41);
+            this.BtnAct.TabIndex = 2;
+            this.BtnAct.Text = "Actualizar Pacientes";
+            this.BtnAct.UseVisualStyleBackColor = true;
+            this.BtnAct.Click += new System.EventHandler(this.BtnAct_Click);
             // 
             // Lista_con_pacientes
             // 
