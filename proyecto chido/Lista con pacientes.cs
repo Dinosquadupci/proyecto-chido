@@ -12,25 +12,32 @@ namespace proyecto_chido
 {
     public partial class Lista_con_pacientes : Form
     {
-        List<Patientlist> Patientlists = new List<Patientlist>();
+        
         public Lista_con_pacientes()
         {
             InitializeComponent();
         }
 
-        private void listpatient_SelectedIndexChanged(object sender, EventArgs e)
+        public void listpatient_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void BtnAct_Click(object sender, EventArgs e)
+        public void BtnAct_Click(object sender, EventArgs e)
         {
+            Patientlist datos = new Patientlist();
             //Limpiamos el list
            listpatient.Items.Clear();
-            foreach (Patientlist nombre in Patientlists)
-            {
+            //foreach (Patientlist nombre in datos)
+            //{
                 ListViewItem item = new ListViewItem();
-                item = listpatient.Items.Add(nombre.Nombrepaciente);
+                item = listpatient.Items.Add(Patientlist.Nombrepaciente);
+                item = listpatient.Items.Add(Patientlist.Apellidopaciente);
+                item = listpatient.Items.Add(Patientlist.Edadpaciente.ToString()) ;
+                item = listpatient.Items.Add(Patientlist.NSS);
+                item = listpatient.Items.Add(Patientlist.Apellidopaciente);
+
+            /*
                 item.SubItems.Add(nombre.Apellidopaciente);
                 item.SubItems.Add(nombre.NSS);
                 item.SubItems.Add(nombre.Edadpaciente.ToString());
@@ -38,7 +45,8 @@ namespace proyecto_chido
                 item.SubItems.Add(nombre.Sintomaspaciente);
                 item.SubItems.Add(nombre.Enfermedadpaciente.ToString());
                 item.SubItems.Add(nombre.TriajePaciente.ToString());
-            }
+            */
+            //}
         }
 
     }
