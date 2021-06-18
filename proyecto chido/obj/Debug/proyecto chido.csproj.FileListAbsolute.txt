@@ -10,3 +10,15 @@ C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chid
 C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.csproj.CoreCompileInputs.cache
 C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.exe
 C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.pdb
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\bin\Debug\proyecto chido.exe.config
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\bin\Debug\proyecto chido.exe
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\bin\Debug\proyecto chido.pdb
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.csprojAssemblyReference.cache
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto_chido.Form1.resources
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto_chido.Form2.resources
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto_chido.Lista_con_pacientes.resources
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto_chido.Properties.Resources.resources
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.csproj.GenerateResource.cache
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.csproj.CoreCompileInputs.cache
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.exe
+C:\Users\Victor Hugo\Documents\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.pdb

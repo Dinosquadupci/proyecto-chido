@@ -132,10 +132,10 @@ namespace proyecto_chido
             // Txtbot
             // 
             this.Txtbot.AutoSize = true;
-            this.Txtbot.Font = new System.Drawing.Font("Milton Keynes", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txtbot.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txtbot.Location = new System.Drawing.Point(12, 9);
             this.Txtbot.Name = "Txtbot";
-            this.Txtbot.Size = new System.Drawing.Size(482, 31);
+            this.Txtbot.Size = new System.Drawing.Size(491, 31);
             this.Txtbot.TabIndex = 1;
             this.Txtbot.Text = "Aquí va lo que dirá el bot en un principio";
             this.Txtbot.Click += new System.EventHandler(this.Txtbot_Click);
@@ -393,9 +393,10 @@ namespace proyecto_chido
             // 
             // btnemergency
             // 
-            this.btnemergency.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnemergency.BackColor = System.Drawing.Color.Red;
             this.btnemergency.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnemergency.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnemergency.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnemergency.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnemergency.Location = new System.Drawing.Point(328, 354);
             this.btnemergency.Name = "btnemergency";
