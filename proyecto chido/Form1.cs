@@ -21,5 +21,10 @@ namespace proyecto_chido
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
