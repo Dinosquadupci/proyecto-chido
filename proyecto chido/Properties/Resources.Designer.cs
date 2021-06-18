@@ -63,9 +63,29 @@ namespace proyecto_chido.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1623983652956 {
+            get {
+                object obj = ResourceManager.GetObject("1623983652956", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Apics_TCS {
             get {
                 object obj = ResourceManager.GetObject("Apics-TCS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wEhrWfdU0iBZAAAAABJRU5ErkJggg {
+            get {
+                object obj = ResourceManager.GetObject("wEhrWfdU0iBZAAAAABJRU5ErkJggg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
