@@ -1052,9 +1052,249 @@ namespace proyecto_chido
                     ck8.Checked = true;
                     break;
 
-                    //casilla 9
+                //casilla 9
 
-                    //casilla 10
+                case 121:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 122:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck9.Checked = true;
+                    break;
+
+                case 123:
+                    chdiab.Checked = false;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck9.Checked = true;
+                    break;
+
+                case 124:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = false;
+                    ck9.Checked = true;
+                    break;
+
+                case 125:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 126:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck9.Checked = true;
+                    break;
+
+                case 127:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = false;
+                    ck9.Checked = true;
+                    break;
+
+                case 128:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 129:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = true;
+                    chale.Checked = false;
+                    ck9.Checked = true;
+                    break;
+
+                case 130:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 131:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 132:
+                    chdiab.Checked = false;
+                    chhiper.Checked = true;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 133:
+                    chdiab.Checked = false;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 134:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck9.Checked = true;
+                    break;
+
+                case 135:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck9.Checked = true;
+                    break;
+
+                //casilla 10
+
+                case 136:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 137:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck10.Checked = true;
+                    break;
+
+                case 138:
+                    chdiab.Checked = false;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck10.Checked = true;
+                    break;
+
+                case 139:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = false;
+                    ck10.Checked = true;
+                    break;
+
+                case 140:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 141:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck10.Checked = true;
+                    break;
+
+                case 142:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = false;
+                    ck10.Checked = true;
+                    break;
+
+                case 143:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 144:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = true;
+                    chale.Checked = false;
+                    ck10.Checked = true;
+                    break;
+
+                case 145:
+                    chdiab.Checked = true;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 146:
+                    chdiab.Checked = true;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 147:
+                    chdiab.Checked = false;
+                    chhiper.Checked = true;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 148:
+                    chdiab.Checked = false;
+                    chhiper.Checked = true;
+                    chasm.Checked = false;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 149:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = true;
+                    chale.Checked = true;
+                    ck10.Checked = true;
+                    break;
+
+                case 150:
+                    chdiab.Checked = false;
+                    chhiper.Checked = false;
+                    chasm.Checked = false;
+                    chale.Checked = false;
+                    ck10.Checked = true;
+                    break;
 
                     //casilla 11
 
