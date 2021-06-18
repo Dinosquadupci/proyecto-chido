@@ -29,13 +29,36 @@ namespace proyecto_chido
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Nombre", System.Windows.Forms.HorizontalAlignment.Left);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lista_con_pacientes));
             this.listpatient = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
+            this.BtnAct = new System.Windows.Forms.Button();
+            this.Nombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Apellido = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Edad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NSS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.BLOOD = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Sintomas = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Enfermedad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Escala = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // listpatient
             // 
+            this.listpatient.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.Nombre,
+            this.Apellido,
+            this.Edad,
+            this.NSS,
+            this.BLOOD,
+            this.Sintomas,
+            this.Enfermedad,
+            this.Escala});
+            listViewGroup1.Header = "Nombre";
+            listViewGroup1.Name = "listViewGroup1";
+            this.listpatient.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
+            listViewGroup1});
             this.listpatient.HideSelection = false;
             this.listpatient.Location = new System.Drawing.Point(12, 83);
             this.listpatient.Name = "listpatient";
@@ -43,6 +66,7 @@ namespace proyecto_chido
             this.listpatient.TabIndex = 1;
             this.listpatient.UseCompatibleStateImageBehavior = false;
             this.listpatient.View = System.Windows.Forms.View.Details;
+            this.listpatient.SelectedIndexChanged += new System.EventHandler(this.listpatient_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -54,11 +78,59 @@ namespace proyecto_chido
             this.label1.TabIndex = 1;
             this.label1.Text = "Pacientes en la sala de Urgencias";
             // 
+            // BtnAct
+            // 
+            this.BtnAct.Location = new System.Drawing.Point(685, 36);
+            this.BtnAct.Name = "BtnAct";
+            this.BtnAct.Size = new System.Drawing.Size(235, 41);
+            this.BtnAct.TabIndex = 2;
+            this.BtnAct.Text = "Actualizar Pacientes";
+            this.BtnAct.UseVisualStyleBackColor = true;
+            // 
+            // Nombre
+            // 
+            this.Nombre.Text = "Nombre";
+            this.Nombre.Width = 139;
+            // 
+            // Apellido
+            // 
+            this.Apellido.Text = "Apellido ";
+            this.Apellido.Width = 147;
+            // 
+            // Edad
+            // 
+            this.Edad.Text = "Edad";
+            // 
+            // NSS
+            // 
+            this.NSS.Text = "NSS";
+            // 
+            // BLOOD
+            // 
+            this.BLOOD.Text = "Tipo de sangre";
+            this.BLOOD.Width = 88;
+            // 
+            // Sintomas
+            // 
+            this.Sintomas.Text = "Sintomas";
+            this.Sintomas.Width = 109;
+            // 
+            // Enfermedad
+            // 
+            this.Enfermedad.Text = "Enfermedad crónica";
+            this.Enfermedad.Width = 109;
+            // 
+            // Escala
+            // 
+            this.Escala.Text = "Triaje";
+            this.Escala.Width = 53;
+            // 
             // Lista_con_pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1035, 469);
+            this.Controls.Add(this.BtnAct);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listpatient);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -73,5 +145,14 @@ namespace proyecto_chido
 
         private System.Windows.Forms.ListView listpatient;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ColumnHeader Nombre;
+        private System.Windows.Forms.ColumnHeader Apellido;
+        private System.Windows.Forms.ColumnHeader Edad;
+        private System.Windows.Forms.ColumnHeader NSS;
+        private System.Windows.Forms.ColumnHeader BLOOD;
+        private System.Windows.Forms.ColumnHeader Sintomas;
+        private System.Windows.Forms.ColumnHeader Enfermedad;
+        private System.Windows.Forms.ColumnHeader Escala;
+        private System.Windows.Forms.Button BtnAct;
     }
 }

@@ -75,9 +75,10 @@ namespace proyecto_chido
             // 
             this.btnsubir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnsubir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnsubir.Location = new System.Drawing.Point(34, 677);
+            this.btnsubir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsubir.Location = new System.Drawing.Point(34, 660);
             this.btnsubir.Name = "btnsubir";
-            this.btnsubir.Size = new System.Drawing.Size(152, 50);
+            this.btnsubir.Size = new System.Drawing.Size(202, 67);
             this.btnsubir.TabIndex = 0;
             this.btnsubir.Text = "Enviar";
             this.btnsubir.UseVisualStyleBackColor = true;
@@ -392,20 +393,26 @@ namespace proyecto_chido
             // 
             // btnemergency
             // 
-            this.btnemergency.Location = new System.Drawing.Point(362, 354);
+            this.btnemergency.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnemergency.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnemergency.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnemergency.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnemergency.Location = new System.Drawing.Point(328, 354);
             this.btnemergency.Name = "btnemergency";
-            this.btnemergency.Size = new System.Drawing.Size(165, 39);
+            this.btnemergency.Size = new System.Drawing.Size(199, 60);
             this.btnemergency.TabIndex = 49;
             this.btnemergency.Text = "EMERGENCIA";
-            this.btnemergency.UseVisualStyleBackColor = true;
+            this.btnemergency.UseVisualStyleBackColor = false;
             this.btnemergency.Click += new System.EventHandler(this.btnemergency_Click);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(330, 328);
+            this.label10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label10.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(280, 339);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(238, 13);
+            this.label10.Size = new System.Drawing.Size(303, 12);
             this.label10.TabIndex = 50;
             this.label10.Text = "Si es una emergencia presione el siguiente botón";
             // 

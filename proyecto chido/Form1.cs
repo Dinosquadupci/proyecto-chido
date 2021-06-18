@@ -55,6 +55,7 @@ namespace proyecto_chido
         private void btnsubir_Click(object sender, EventArgs e)
         {
 
+
         }
 
         private void Txtbot_Click(object sender, EventArgs e)

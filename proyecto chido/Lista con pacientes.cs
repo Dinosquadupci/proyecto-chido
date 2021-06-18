@@ -16,5 +16,10 @@ namespace proyecto_chido
         {
             InitializeComponent();
         }
+
+        private void listpatient_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
