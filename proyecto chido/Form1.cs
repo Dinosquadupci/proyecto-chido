@@ -15,6 +15,9 @@ namespace proyecto_chido
         public Form1()
         {
             InitializeComponent();
+            Txtbot.Text = "Hola soy Maxbay su médico de urgencias!";
+    
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,6 +50,16 @@ namespace proyecto_chido
             {
                 MessageBox.Show(error.Message);
             }
+        }
+
+        private void btnsubir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txtbot_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

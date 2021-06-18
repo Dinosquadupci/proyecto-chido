@@ -83,6 +83,16 @@ namespace proyecto_chido.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OIP__2_ {
+            get {
+                object obj = ResourceManager.GetObject("OIP (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wEhrWfdU0iBZAAAAABJRU5ErkJggg {
             get {
                 object obj = ResourceManager.GetObject("wEhrWfdU0iBZAAAAABJRU5ErkJggg", resourceCulture);

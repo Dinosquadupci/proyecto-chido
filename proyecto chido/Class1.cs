@@ -19,6 +19,10 @@ namespace proyecto_chido
 
         public string Sintomaspaciente { get; set; }
 
+        public bool  Enfermedadpaciente { get; set; }
+
+        public bool TriajePaciente { get; set; }
+
 
     }
 }

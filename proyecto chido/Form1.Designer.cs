@@ -37,7 +37,6 @@ namespace proyecto_chido
             this.label5 = new System.Windows.Forms.Label();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
             this.Txtbot = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -47,7 +46,6 @@ namespace proyecto_chido
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -67,8 +65,10 @@ namespace proyecto_chido
             this.label9 = new System.Windows.Forms.Label();
             this.btnemergency = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnsubir
@@ -81,6 +81,7 @@ namespace proyecto_chido
             this.btnsubir.TabIndex = 0;
             this.btnsubir.Text = "Enviar";
             this.btnsubir.UseVisualStyleBackColor = true;
+            this.btnsubir.Click += new System.EventHandler(this.btnsubir_Click);
             // 
             // textBox3
             // 
@@ -136,17 +137,7 @@ namespace proyecto_chido
             this.Txtbot.Size = new System.Drawing.Size(482, 31);
             this.Txtbot.TabIndex = 1;
             this.Txtbot.Text = "Aquí va lo que dirá el bot en un principio";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Enabled = false;
-            this.pictureBox1.Image = global::proyecto_chido.Properties.Resources.Apics_TCS;
-            this.pictureBox1.Location = new System.Drawing.Point(369, 83);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(209, 191);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.Txtbot.Click += new System.EventHandler(this.Txtbot_Click);
             // 
             // textBox1
             // 
@@ -218,18 +209,6 @@ namespace proyecto_chido
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(300, 20);
             this.textBox6.TabIndex = 29;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Image = global::proyecto_chido.Properties.Resources._1623983652956;
-            this.pictureBox2.InitialImage = global::proyecto_chido.Properties.Resources.wEhrWfdU0iBZAAAAABJRU5ErkJggg;
-            this.pictureBox2.Location = new System.Drawing.Point(34, 444);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(510, 166);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 30;
-            this.pictureBox2.TabStop = false;
             // 
             // label8
             // 
@@ -430,10 +409,34 @@ namespace proyecto_chido
             this.label10.TabIndex = 50;
             this.label10.Text = "Si es una emergencia presione el siguiente botón";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Image = global::proyecto_chido.Properties.Resources._1623983652956;
+            this.pictureBox2.InitialImage = global::proyecto_chido.Properties.Resources.wEhrWfdU0iBZAAAAABJRU5ErkJggg;
+            this.pictureBox2.Location = new System.Drawing.Point(34, 444);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(510, 166);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 30;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Enabled = false;
+            this.pictureBox1.Image = global::proyecto_chido.Properties.Resources.OIP__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(369, 83);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(209, 191);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(590, 739);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnemergency);
@@ -474,10 +477,11 @@ namespace proyecto_chido
             this.Controls.Add(this.btnsubir);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maxbay 1.1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
