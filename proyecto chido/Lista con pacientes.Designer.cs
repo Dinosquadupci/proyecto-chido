@@ -42,6 +42,7 @@ namespace proyecto_chido
             this.Escala = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.BtnAct = new System.Windows.Forms.Button();
+            this.Delatebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listpatient
@@ -118,7 +119,7 @@ namespace proyecto_chido
             // 
             // BtnAct
             // 
-            this.BtnAct.Location = new System.Drawing.Point(685, 36);
+            this.BtnAct.Location = new System.Drawing.Point(489, 36);
             this.BtnAct.Name = "BtnAct";
             this.BtnAct.Size = new System.Drawing.Size(235, 41);
             this.BtnAct.TabIndex = 2;
@@ -126,11 +127,22 @@ namespace proyecto_chido
             this.BtnAct.UseVisualStyleBackColor = true;
             this.BtnAct.Click += new System.EventHandler(this.BtnAct_Click);
             // 
+            // Delatebtn
+            // 
+            this.Delatebtn.Location = new System.Drawing.Point(759, 36);
+            this.Delatebtn.Name = "Delatebtn";
+            this.Delatebtn.Size = new System.Drawing.Size(231, 41);
+            this.Delatebtn.TabIndex = 3;
+            this.Delatebtn.Text = "Eliminar";
+            this.Delatebtn.UseVisualStyleBackColor = true;
+            this.Delatebtn.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Lista_con_pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1035, 469);
+            this.Controls.Add(this.Delatebtn);
             this.Controls.Add(this.BtnAct);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listpatient);
@@ -155,5 +167,6 @@ namespace proyecto_chido
         private System.Windows.Forms.ColumnHeader Enfermedad;
         private System.Windows.Forms.ColumnHeader Escala;
         private System.Windows.Forms.Button BtnAct;
+        private System.Windows.Forms.Button Delatebtn;
     }
 }

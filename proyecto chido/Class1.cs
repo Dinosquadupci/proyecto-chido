@@ -9,7 +9,7 @@ namespace proyecto_chido
     public class Patientlist:Form1
     {
 
-        public  string Nombrepaciente { get; set; }
+        public string Nombrepaciente { get; set; }
         public  string Apellidopaciente { get; set; }
 
         public  int Edadpaciente { get; set; }

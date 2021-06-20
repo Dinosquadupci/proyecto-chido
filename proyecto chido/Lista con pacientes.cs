@@ -12,7 +12,7 @@ namespace proyecto_chido
 {
     public partial class Lista_con_pacientes : Form
     {
-        
+        public List<Patientlist> Patientlists = new List<Patientlist>();
         public Lista_con_pacientes()
         {
             InitializeComponent();
@@ -20,15 +20,16 @@ namespace proyecto_chido
 
         public void listpatient_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         public void BtnAct_Click(object sender, EventArgs e)
         {
-          Patientlist nombre = new Patientlist();
+          //Patientlist nombre = new Patientlist();
             //Limpiamos el list
             listpatient.Items.Clear();
-
+            foreach (Patientlist nombre in Patientlists)
+            {
                 ListViewItem item = new ListViewItem();
                 item = listpatient.Items.Add(nombre.Nombrepaciente);
                 item.SubItems.Add(nombre.Apellidopaciente);
@@ -38,7 +39,7 @@ namespace proyecto_chido
                 item.SubItems.Add(nombre.Sintomaspaciente);
                 item.SubItems.Add(nombre.Enfermedadpaciente.ToString());
                 item.SubItems.Add(nombre.TriajePaciente.ToString());
-          
+            }
 
             /*ListViewItem item = new ListViewItem();
             item = listpatient.Items.Add(Patientlist.Nombrepaciente);
@@ -53,6 +54,10 @@ namespace proyecto_chido
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listpatient.Items.Clear();
+        }
     }
 
 }
