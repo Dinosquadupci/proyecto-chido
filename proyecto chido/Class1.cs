@@ -9,20 +9,20 @@ namespace proyecto_chido
     public class Patientlist:Form1
     {
 
-        public static string Nombrepaciente { get; set; }
-        public static string Apellidopaciente { get; set; }
+        public  string Nombrepaciente { get; set; }
+        public  string Apellidopaciente { get; set; }
 
-        public static int Edadpaciente { get; set; }
+        public  int Edadpaciente { get; set; }
 
-        public static string NSS { get; set; }
+        public  string NSS { get; set; }
 
-        public static string Sangretype { get; set; }
+        public  string Sangretype { get; set; }
 
-        public static string Sintomaspaciente { get; set; }
+        public  string Sintomaspaciente { get; set; }
 
-        public  static bool  Enfermedadpaciente { get; set; }
+        public   bool  Enfermedadpaciente { get; set; }
 
-        public static bool TriajePaciente { get; set; }
+        public  bool TriajePaciente { get; set; }
 
 
     }

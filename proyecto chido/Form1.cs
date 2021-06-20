@@ -12,7 +12,7 @@ namespace proyecto_chido
     
     public partial class Form1 : Form
     {
-        public static string listsPatient;
+        public string listsPatient;
         public List<Patientlist>Patientlists = new List<Patientlist>();
         
         public Form1()
@@ -64,17 +64,16 @@ namespace proyecto_chido
 
         public void btnsubir_Click(object sender, EventArgs e)
         {
-            Patientlist kiko  = new Patientlist();
-           /* // kiko.Nombrepaciente = textBox1.Text;
-            //nombre.Edadpaciente = Convert.ToInt32(textBox3.Text);
+            Patientlist nombre = new Patientlist();
+            nombre.Nombrepaciente = textBox1.Text;
+            nombre.Edadpaciente = Convert.ToInt32(textBox3.Text);
             nombre.Apellidopaciente = textBox2.Text;
             nombre.NSS = textBox4.Text;
             nombre.Sangretype = textBox5.Text;
             nombre.Sintomaspaciente = textBox6.Text;
             nombre.Enfermedadpaciente = chdiab.Checked || chasm.Checked || chhiper.Checked || chale.Checked;
-            
             nombre.TriajePaciente = ck1.Checked || ck2.Checked || ck3.Checked || ck4.Checked || ck5.Checked || ck6.Checked || ck7.Checked || ck8.Checked || ck9.Checked || ck10.Checked || ck11.Checked || ck12.Checked;
-            */
+            
             switch (casos)
             {
                 case 1:
@@ -94,7 +93,7 @@ namespace proyecto_chido
 
 
             }
-            Patientlists.Add(nombre);
+            //Patientlists.Add(nombre);
             textBox1.Text = String.Empty;
             textBox2.Text = String.Empty;
             textBox4.Text = String.Empty;
