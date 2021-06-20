@@ -21,5 +21,23 @@ namespace proyecto_chido
         {
 
         }
+
+        private void Returnbtn_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                this.Hide();//ayuda a ocultar el formulario 
+                Form1 FormularioPrincipal = new Form1();
+                FormularioPrincipal.Show();
+
+
+
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+        }
     }
 }

@@ -119,7 +119,8 @@ namespace proyecto_chido
             // 
             // BtnAct
             // 
-            this.BtnAct.Location = new System.Drawing.Point(489, 36);
+            this.BtnAct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAct.Location = new System.Drawing.Point(493, 36);
             this.BtnAct.Name = "BtnAct";
             this.BtnAct.Size = new System.Drawing.Size(235, 41);
             this.BtnAct.TabIndex = 2;
@@ -129,6 +130,7 @@ namespace proyecto_chido
             // 
             // Delatebtn
             // 
+            this.Delatebtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Delatebtn.Location = new System.Drawing.Point(759, 36);
             this.Delatebtn.Name = "Delatebtn";
             this.Delatebtn.Size = new System.Drawing.Size(231, 41);

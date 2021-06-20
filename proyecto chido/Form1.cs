@@ -12,27 +12,31 @@ namespace proyecto_chido
     
     public partial class Form1 : Form
     {
-        public static string listsPatient;
-        public List<Patientlist>Patientlists = new List<Patientlist>();
-        
+        public static string Patientlists1;
+        public   List<Patientlist>Patientlists = new List<Patientlist>();
+        public Lista_con_pacientes Formulariopatient = new Lista_con_pacientes();
         public Form1()
         {
             InitializeComponent();
             Txtbot.Text = "Hola soy Maxbay su médico de urgencias!";
+
             
+            Formulariopatient.Show();
             
 
-    
+
 
         }
-        int casos;
+        public string nombre1 = "";
+        public string edad = "";
+
+        int casos=0;
+        //int triaje = 0;
 
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            Lista_con_pacientes Formulariopatient = new Lista_con_pacientes();
-            Formulariopatient.Show();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -47,12 +51,15 @@ namespace proyecto_chido
 
         private void btnemergency_Click(object sender, EventArgs e)
         {
+
             try
             {
+
+                Formulariopatient.Hide();
                 this.Hide();//ayuda a ocultar el formulario 
                 Form2 FormularioPrincipal = new Form2();
                 FormularioPrincipal.Show();
-
+                
  
 
             }
@@ -64,17 +71,19 @@ namespace proyecto_chido
 
         public void btnsubir_Click(object sender, EventArgs e)
         {
-            Patientlist kiko  = new Patientlist();
-           /* // kiko.Nombrepaciente = textBox1.Text;
-            //nombre.Edadpaciente = Convert.ToInt32(textBox3.Text);
-            nombre.Apellidopaciente = textBox2.Text;
-            nombre.NSS = textBox4.Text;
-            nombre.Sangretype = textBox5.Text;
-            nombre.Sintomaspaciente = textBox6.Text;
-            nombre.Enfermedadpaciente = chdiab.Checked || chasm.Checked || chhiper.Checked || chale.Checked;
-            
-            nombre.TriajePaciente = ck1.Checked || ck2.Checked || ck3.Checked || ck4.Checked || ck5.Checked || ck6.Checked || ck7.Checked || ck8.Checked || ck9.Checked || ck10.Checked || ck11.Checked || ck12.Checked;
-            */
+            nombre1 = textBox1.Text;
+            edad = textBox2.Text;
+
+            Patientlist.Nombrepaciente = textBox1.Text;
+            Patientlist.Apellidopaciente = textBox2.Text;
+            Patientlist.Edadpaciente = Convert.ToInt32(textBox3.Text);
+            Patientlist.Sangretype = textBox5.Text;
+            Patientlist.NSS = textBox4.Text;
+            Patientlist.Sintomaspaciente = textBox6.Text;
+            Patientlist.Enfermedadpaciente = chdiab.Checked || chasm.Checked || chhiper.Checked || chale.Checked;
+            Patientlist.TriajePaciente = ck1.Checked || ck2.Checked || ck3.Checked || ck4.Checked || ck5.Checked || ck6.Checked || ck7.Checked || ck8.Checked || ck9.Checked || ck10.Checked || ck11.Checked || ck12.Checked;
+
+
             switch (casos)
             {
                 //casilla 1
@@ -85,7 +94,7 @@ namespace proyecto_chido
                     chale.Checked = true;
                     ck1.Checked = true;
                     break;
-          
+
                 case 2:
                     chdiab.Checked = true;
                     chhiper.Checked = false;
@@ -1541,6 +1550,22 @@ namespace proyecto_chido
                     break;
 
             }
+            //EJEMPLO DEL TRIAJE 
+           /* if (casos1)
+
+            {
+                
+                MessageBox.Show("Tienes código verde " + nombre + ", tú edad es: " + edad + " y tú tiempo de espera es de: 40 - 50 min");
+
+            } 
+            if (caso 2)
+
+         {
+
+             MessageBox.Show(" Tienes código rojo " + nombre + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+
+         } */
+
             // Patientlists.Add(nombre);
             textBox1.Text = String.Empty;
             textBox2.Text = String.Empty;

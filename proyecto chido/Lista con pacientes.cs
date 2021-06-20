@@ -12,7 +12,7 @@ namespace proyecto_chido
 {
     public partial class Lista_con_pacientes : Form
     {
-        public List<Patientlist> Patientlists = new List<Patientlist>();
+        
         public Lista_con_pacientes()
         {
             InitializeComponent();
@@ -26,31 +26,20 @@ namespace proyecto_chido
         public void BtnAct_Click(object sender, EventArgs e)
         {
           //Patientlist nombre = new Patientlist();
+            
             //Limpiamos el list
             listpatient.Items.Clear();
-            foreach (Patientlist nombre in Patientlists)
-            {
-                ListViewItem item = new ListViewItem();
-                item = listpatient.Items.Add(nombre.Nombrepaciente);
-                item.SubItems.Add(nombre.Apellidopaciente);
-                item.SubItems.Add(nombre.NSS);
-                item.SubItems.Add(nombre.Edadpaciente.ToString());
-                item.SubItems.Add(nombre.Sangretype);
-                item.SubItems.Add(nombre.Sintomaspaciente);
-                item.SubItems.Add(nombre.Enfermedadpaciente.ToString());
-                item.SubItems.Add(nombre.TriajePaciente.ToString());
-            }
 
-            /*ListViewItem item = new ListViewItem();
-            item = listpatient.Items.Add(Patientlist.Nombrepaciente);
-            item = listpatient.Items.Add(Patientlist.Apellidopaciente);
-            item = listpatient.Items.Add(Patientlist.Edadpaciente.ToString()) ;
-            item = listpatient.Items.Add(Patientlist.NSS);
-            item = listpatient.Items.Add(Patientlist.Sangretype);
-            item = listpatient.Items.Add(Patientlist.Sintomaspaciente);
-            item = listpatient.Items.Add(Patientlist.Enfermedadpaciente.ToString());
-            item = listpatient.Items.Add(Patientlist.TriajePaciente.ToString());
-        */
+            ListViewItem item = new ListViewItem(Patientlist.Nombrepaciente);
+            item.SubItems.Add(Patientlist.Apellidopaciente);
+            item.SubItems.Add(Patientlist.Edadpaciente.ToString()) ;
+            item.SubItems.Add(Patientlist.NSS);
+            item.SubItems.Add(Patientlist.Sangretype);
+            item.SubItems.Add(Patientlist.Sintomaspaciente);
+            item.SubItems.Add(Patientlist.Enfermedadpaciente.ToString());
+            item.SubItems.Add(Patientlist.TriajePaciente.ToString());
+            listpatient.Items.Add(item);
+        
 
         }
 

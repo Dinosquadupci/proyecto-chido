@@ -123,6 +123,7 @@ namespace proyecto_chido
             // 
             this.ck12.AutoSize = true;
             this.ck12.BackColor = System.Drawing.Color.Firebrick;
+            this.ck12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck12.Location = new System.Drawing.Point(489, 616);
             this.ck12.Name = "ck12";
             this.ck12.Size = new System.Drawing.Size(38, 17);
@@ -230,6 +231,7 @@ namespace proyecto_chido
             // 
             this.ck1.AutoSize = true;
             this.ck1.BackColor = System.Drawing.Color.Green;
+            this.ck1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck1.Location = new System.Drawing.Point(55, 617);
             this.ck1.Name = "ck1";
             this.ck1.Size = new System.Drawing.Size(32, 17);
@@ -241,6 +243,7 @@ namespace proyecto_chido
             // 
             this.ck2.AutoSize = true;
             this.ck2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ck2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck2.Location = new System.Drawing.Point(93, 617);
             this.ck2.Name = "ck2";
             this.ck2.Size = new System.Drawing.Size(32, 17);
@@ -252,6 +255,7 @@ namespace proyecto_chido
             // 
             this.ck3.AutoSize = true;
             this.ck3.BackColor = System.Drawing.Color.Lime;
+            this.ck3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck3.Location = new System.Drawing.Point(127, 617);
             this.ck3.Name = "ck3";
             this.ck3.Size = new System.Drawing.Size(32, 17);
@@ -263,6 +267,7 @@ namespace proyecto_chido
             // 
             this.ck4.AutoSize = true;
             this.ck4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ck4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck4.Location = new System.Drawing.Point(165, 616);
             this.ck4.Name = "ck4";
             this.ck4.Size = new System.Drawing.Size(32, 17);
@@ -274,6 +279,7 @@ namespace proyecto_chido
             // 
             this.ck5.AutoSize = true;
             this.ck5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ck5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck5.Location = new System.Drawing.Point(204, 616);
             this.ck5.Name = "ck5";
             this.ck5.Size = new System.Drawing.Size(32, 17);
@@ -285,6 +291,7 @@ namespace proyecto_chido
             // 
             this.ck6.AutoSize = true;
             this.ck6.BackColor = System.Drawing.Color.Yellow;
+            this.ck6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck6.Location = new System.Drawing.Point(243, 616);
             this.ck6.Name = "ck6";
             this.ck6.Size = new System.Drawing.Size(32, 17);
@@ -296,6 +303,7 @@ namespace proyecto_chido
             // 
             this.ck7.AutoSize = true;
             this.ck7.BackColor = System.Drawing.Color.Gold;
+            this.ck7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck7.Location = new System.Drawing.Point(282, 617);
             this.ck7.Name = "ck7";
             this.ck7.Size = new System.Drawing.Size(32, 17);
@@ -307,6 +315,7 @@ namespace proyecto_chido
             // 
             this.ck8.AutoSize = true;
             this.ck8.BackColor = System.Drawing.Color.Orange;
+            this.ck8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck8.Location = new System.Drawing.Point(321, 617);
             this.ck8.Name = "ck8";
             this.ck8.Size = new System.Drawing.Size(32, 17);
@@ -318,6 +327,7 @@ namespace proyecto_chido
             // 
             this.ck9.AutoSize = true;
             this.ck9.BackColor = System.Drawing.Color.DarkOrange;
+            this.ck9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck9.Location = new System.Drawing.Point(360, 617);
             this.ck9.Name = "ck9";
             this.ck9.Size = new System.Drawing.Size(32, 17);
@@ -329,6 +339,7 @@ namespace proyecto_chido
             // 
             this.ck10.AutoSize = true;
             this.ck10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.ck10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck10.Location = new System.Drawing.Point(399, 616);
             this.ck10.Name = "ck10";
             this.ck10.Size = new System.Drawing.Size(38, 17);
@@ -340,6 +351,7 @@ namespace proyecto_chido
             // 
             this.ck11.AutoSize = true;
             this.ck11.BackColor = System.Drawing.Color.Brown;
+            this.ck11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ck11.Location = new System.Drawing.Point(444, 617);
             this.ck11.Name = "ck11";
             this.ck11.Size = new System.Drawing.Size(38, 17);
@@ -350,6 +362,7 @@ namespace proyecto_chido
             // chdiab
             // 
             this.chdiab.AutoSize = true;
+            this.chdiab.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chdiab.Location = new System.Drawing.Point(28, 354);
             this.chdiab.Name = "chdiab";
             this.chdiab.Size = new System.Drawing.Size(68, 17);
@@ -360,6 +373,7 @@ namespace proyecto_chido
             // chhiper
             // 
             this.chhiper.AutoSize = true;
+            this.chhiper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chhiper.Location = new System.Drawing.Point(28, 377);
             this.chhiper.Name = "chhiper";
             this.chhiper.Size = new System.Drawing.Size(85, 17);
@@ -370,6 +384,7 @@ namespace proyecto_chido
             // chasm
             // 
             this.chasm.AutoSize = true;
+            this.chasm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chasm.Location = new System.Drawing.Point(127, 354);
             this.chasm.Name = "chasm";
             this.chasm.Size = new System.Drawing.Size(55, 17);
@@ -380,6 +395,7 @@ namespace proyecto_chido
             // chale
             // 
             this.chale.AutoSize = true;
+            this.chale.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chale.Location = new System.Drawing.Point(127, 377);
             this.chale.Name = "chale";
             this.chale.Size = new System.Drawing.Size(66, 17);
