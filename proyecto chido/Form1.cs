@@ -93,7 +93,7 @@ namespace proyecto_chido
 
 
         
-                //casilla 1
+                //casilla 1 - 4 Navi, 4-8 Joshua, 9-12 Victor 
              if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked  && ck1.Checked )
             {
                 MessageBox.Show("Tienes código verde, " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 40 - 50 min");
