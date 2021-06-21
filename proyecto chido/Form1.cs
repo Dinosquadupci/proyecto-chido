@@ -342,8 +342,423 @@ namespace proyecto_chido
             else if (ck4.Checked)
             {
                 MessageBox.Show("No es una urgencia, acuda a su médico familiar");
+
+            }
+            //Case 5
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
             }
 
+
+
+            else if (chdiab.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+            else if (chasm.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chale.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chale.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chale.Checked && ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chasm.Checked && chale.Checked && ck5.Checked)
+
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (ck5.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+            //casilla 6
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+            else if (chasm.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chale.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+            else if (chdiab.Checked && chhiper.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chale.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chale.Checked && ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chasm.Checked && chale.Checked && ck6.Checked)
+
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (ck6.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+            //casilla 7
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+            else if (chasm.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chale.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+            else if (chdiab.Checked && chhiper.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chale.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chale.Checked && ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chasm.Checked && chale.Checked && ck7.Checked)
+
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (ck7.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+            //casilla 8
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+            else if (chasm.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chale.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+            else if (chdiab.Checked && chhiper.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chale.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chhiper.Checked && chale.Checked && ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (chasm.Checked && chale.Checked && ck8.Checked)
+
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
+
+
+
+            else if (ck8.Checked)
+            {
+                MessageBox.Show("Tienes código amarillo " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 20 min");
+            }
 
             //casilla 9
             else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck9.Checked)
