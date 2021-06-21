@@ -27,8 +27,7 @@ namespace proyecto_chido
         {
           //Patientlist nombre = new Patientlist();
             
-            //Limpiamos el list
-            listpatient.Items.Clear();
+
 
             ListViewItem item = new ListViewItem(Patientlist.Nombrepaciente);
             item.SubItems.Add(Patientlist.Apellidopaciente);
