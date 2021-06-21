@@ -345,6 +345,261 @@ namespace proyecto_chido
             }
 
 
+            //casilla 9
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && chale.Checked && ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (ck9.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+
+
+
+            //casilla 10
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && chale.Checked && ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (ck10.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+
+
+            //casilla 11
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && chale.Checked && ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (ck11.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+
+            //casilla 12
+
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chasm.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chhiper.Checked && chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chdiab.Checked && chasm.Checked && chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chasm.Checked && chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chhiper.Checked && chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (chasm.Checked && chale.Checked && ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+            else if (ck12.Checked)
+            {
+                MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+            }
+
+
+
             // Patientlists.Add(nombre);
             textBox1.Text = String.Empty;
             textBox2.Text = String.Empty;
