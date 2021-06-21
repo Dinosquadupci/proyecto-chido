@@ -30,7 +30,7 @@ namespace proyecto_chido
         public string nombre1 = "";
         public string edad = "";
 
-        int casos=0;
+        int casos;
         //int triaje = 0;
 
 
@@ -72,11 +72,19 @@ namespace proyecto_chido
         public void btnsubir_Click(object sender, EventArgs e)
         {
             nombre1 = textBox1.Text;
-            edad = textBox2.Text;
+            edad = textBox3.Text;
 
             Patientlist.Nombrepaciente = textBox1.Text;
             Patientlist.Apellidopaciente = textBox2.Text;
-            Patientlist.Edadpaciente = Convert.ToInt32(textBox3.Text);
+            try
+            {
+                Patientlist.Edadpaciente = Convert.ToInt32(textBox3.Text);
+            }
+            catch (Exception error)
+
+            {
+                MessageBox.Show(error.Message);
+            }
             Patientlist.Sangretype = textBox5.Text;
             Patientlist.NSS = textBox4.Text;
             Patientlist.Sintomaspaciente = textBox6.Text;
@@ -84,17 +92,19 @@ namespace proyecto_chido
             Patientlist.TriajePaciente = ck1.Checked || ck2.Checked || ck3.Checked || ck4.Checked || ck5.Checked || ck6.Checked || ck7.Checked || ck8.Checked || ck9.Checked || ck10.Checked || ck11.Checked || ck12.Checked;
 
 
-            switch (casos)
-            {
+        
                 //casilla 1
-                case 1:
-                    chdiab.Checked = true;
-                    chhiper.Checked = true;
-                    chasm.Checked = true;
-                    chale.Checked = true;
-                    ck1.Checked = true;
-                    break;
+             if (chdiab.Checked && chhiper.Checked && chasm.Checked && chale.Checked  && ck1.Checked )
+            {
+                MessageBox.Show("Tienes código verde, " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 40 - 50 min");
+            }
 
+
+
+            
+
+                  
+             /*
                 case 2:
                     chdiab.Checked = true;
                     chhiper.Checked = false;
@@ -1550,21 +1560,22 @@ namespace proyecto_chido
                     break;
 
             }
+            
             //EJEMPLO DEL TRIAJE 
-           /* if (casos1)
+            /* if (casos= 1)
 
-            {
-                
-                MessageBox.Show("Tienes código verde " + nombre + ", tú edad es: " + edad + " y tú tiempo de espera es de: 40 - 50 min");
+             {
 
-            } 
-            if (caso 2)
+                 MessageBox.Show("Tienes código verde " + nombre1 + ", tú edad es: " + edad + " y tú tiempo de espera es de: 40 - 50 min");
 
-         {
+             } 
+             if (case 1 = true)
 
-             MessageBox.Show(" Tienes código rojo " + nombre + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+          {
 
-         } */
+              MessageBox.Show(" Tienes código rojo " + nombre1 + ", Edad: " + edad + " y tú tiempo de espera es de: 5 min ");
+
+          } */
 
             // Patientlists.Add(nombre);
             textBox1.Text = String.Empty;
