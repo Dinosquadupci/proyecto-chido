@@ -34,3 +34,7 @@ C:\Users\Josh\OneDrive\Documentos\GitHub\proyecto-chido\proyecto chido\obj\Debug
 C:\Users\Josh\OneDrive\Documentos\GitHub\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.csproj.CoreCompileInputs.cache
 C:\Users\Josh\OneDrive\Documentos\GitHub\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.exe
 C:\Users\Josh\OneDrive\Documentos\GitHub\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.pdb
+C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chido\bin\Debug\proyecto chido.exe.manifest
+C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chido\bin\Debug\proyecto chido.application
+C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.exe.manifest
+C:\Users\necno\Desktop\UPCI\5\Programación objetos\proyecto-chido\proyecto chido\obj\Debug\proyecto chido.application
